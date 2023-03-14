@@ -4,11 +4,7 @@ import React, {useState} from 'react';
 
 export default function Meme() {
     const [memeImage, setMemeImage] = React.useState("")
-    /**
-     * Challenge: Save the random meme URL in state
-     * - Below the div.form, add an <img /> and set the
-     *   src to the new `memeImage` state you created
-     */
+  
     
     function getMemeImage() {
         const memesArray = memesData.data.memes
@@ -16,7 +12,7 @@ export default function Meme() {
         setMemeImage(memesArray[randomNumber].url)
         
     }
-    
+    //a
     return (
         <main>
             <div className="form">
